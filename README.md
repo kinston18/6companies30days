@@ -1,4 +1,4 @@
-Challenge Company 1 : Microsoft 
+Challenge Company 1 : <h3>Microsoft </h3>
 
 <ul>
 <li>You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.</li>
