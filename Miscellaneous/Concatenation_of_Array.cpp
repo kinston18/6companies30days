@@ -11,3 +11,16 @@ Explanation: The array ans is formed as follows:
 - ans = [1,2,1,1,2,1]
 */
 
+class Solution {
+public:
+    vector<int> getConcatenation(vector<int>& nums) {
+        int n=nums.size();
+        vector<int>a(2*n);
+        for(int i=0;i<n;i++)
+        {
+            a[i]=nums[i];
+            a[i+n]=nums[i];
+        }
+        return a;
+    }
+};
